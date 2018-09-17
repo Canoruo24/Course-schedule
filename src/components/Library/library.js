@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Library extends Component {
     render(){
         return(
-            <div ClassName ="library">
+            <div className ="library">
             <h1 className="Library_title">Coursre Library</h1>
 
             </div>
