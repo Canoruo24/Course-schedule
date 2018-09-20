@@ -1,15 +1,24 @@
 .library-course {
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
-    grid-template-rows:1fr 1fr;
+    grid-template-rows: 32px 1fr;
+    background: cornflowerblue;
+    
 
-
-    &_title{
+  
+    &__title-arrow {
         grid-row: 1/2;
-
+        display: flex;
     }
-
-    &_description {
+    &__icon {
+        width: 100px;
+        align-self: center;
+        padding-left: 16px;
+    }
+    &__arrow {
+        grid-row: 1/2;
+    }
+    &__description {
         grid-row: 2/3;
     }
 }
